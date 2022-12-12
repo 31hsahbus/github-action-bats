@@ -3,7 +3,7 @@ run-name: ${{github.actor}} is learning GitHub Actions
 on: [push]
 jobs:
   check-nginx-version:
-    if: github.repository == 'hsahbus/github-action-bats'
+    if: github.repository == '31hsahbus/github-action-bats'
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v3
